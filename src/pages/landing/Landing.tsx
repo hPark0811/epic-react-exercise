@@ -7,9 +7,15 @@ const Landing = () => {
       <h1>
         Exercises
       </h1>
-      <NavLink to="/tic-tac-toe"exact>
-        Tic Tac Toe
-      </NavLink>
+      <ul>
+        <li>
+          <NavLink to="/tic-tac-toe" exact>Tic Tac Toe</NavLink>
+        </li>
+        <li>
+          <NavLink to="/tilt" exact>Tilt</NavLink>
+        </li>
+      </ul>
+
     </>
   )
 }
