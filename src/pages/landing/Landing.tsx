@@ -14,6 +14,10 @@ const Landing = () => {
         <li>
           <NavLink to="/tilt" exact>Tilt</NavLink>
         </li>
+        <li>
+          <NavLink to="/dramatic-dice" exact>Dramatic Dice</NavLink>
+        </li>
+
       </ul>
 
     </>
