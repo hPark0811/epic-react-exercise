@@ -4,6 +4,7 @@ import Landing from './pages/landing/Landing';
 import DramaticDice from './pages/dramatic-dice/DramaticDice';
 import TicTacToe from './pages/tic-tac-toe/TicTacToe';
 import Tilt from './pages/tilt/Tilt';
+import Scrolley from './pages/scrolley/Scrolley';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         {/* Safely handling async operator */}
         <Route path="/dramatic-dice"
           component={DramaticDice} />
+        {/* Exposing properties to the parent */}
+        <Route path="/scrolley"
+          component={Scrolley} />
 
 
 

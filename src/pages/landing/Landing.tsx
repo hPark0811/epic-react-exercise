@@ -17,6 +17,9 @@ const Landing = () => {
         <li>
           <NavLink to="/dramatic-dice" exact>Dramatic Dice</NavLink>
         </li>
+        <li>
+          <NavLink to="/scrolley" exact>Scrolley</NavLink>
+        </li>
 
       </ul>
 
