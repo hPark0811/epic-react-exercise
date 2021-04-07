@@ -5,6 +5,7 @@ import DramaticDice from './pages/dramatic-dice/DramaticDice';
 import TicTacToe from './pages/tic-tac-toe/TicTacToe';
 import Tilt from './pages/tilt/Tilt';
 import Scrolley from './pages/scrolley/Scrolley';
+import HistoryExample from './pages/history/HistoryExample';
 
 function App() {
   return (
@@ -28,9 +29,9 @@ function App() {
         {/* Exposing properties to the parent */}
         <Route path="/scrolley"
           component={Scrolley} />
-
-
-
+        {/* useState vs useReducer, when to use which */}
+        <Route path="/history"
+          component={HistoryExample} />
       </Switch>
     </BrowserRouter>
   );
