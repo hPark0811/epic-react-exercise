@@ -23,6 +23,9 @@ const Landing = () => {
         <li>
           <NavLink to="/history" exact>History</NavLink>
         </li>
+        <li>
+          <NavLink to="/user" exact>User</NavLink>
+        </li>
       </ul>
 
     </>

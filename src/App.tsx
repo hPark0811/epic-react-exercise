@@ -6,6 +6,7 @@ import TicTacToe from './pages/tic-tac-toe/TicTacToe';
 import Tilt from './pages/tilt/Tilt';
 import Scrolley from './pages/scrolley/Scrolley';
 import HistoryExample from './pages/history/HistoryExample';
+import User from './pages/user-page/User';
 
 function App() {
   return (
@@ -32,6 +33,11 @@ function App() {
         {/* useState vs useReducer, when to use which */}
         <Route path="/history"
           component={HistoryExample} />
+
+        {/* Advanced React Patterns */}
+        {/* Context Module Function */}
+        <Route path="/user"
+          component={User} />
       </Switch>
     </BrowserRouter>
   );
