@@ -7,6 +7,7 @@ import Tilt from './pages/tilt/Tilt';
 import Scrolley from './pages/scrolley/Scrolley';
 import HistoryExample from './pages/history/HistoryExample';
 import User from './pages/user-page/User';
+import AccordPage from './pages/accordion/Accordion';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
         {/* Context Module Function */}
         <Route path="/user"
           component={User} />
+        {/* Flexible Compound Components */}
+        <Route path="/accordion"
+          component={AccordPage} />
       </Switch>
     </BrowserRouter>
   );
