@@ -29,6 +29,9 @@ const Landing = () => {
         <li>
           <NavLink to="/accordion" exact>Accordion</NavLink>
         </li>
+        <li>
+          <NavLink to="/toggle" exact>Toggle</NavLink>
+        </li>
       </ul>
 
     </>

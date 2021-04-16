@@ -43,7 +43,7 @@ const AccordBtn = ({ Component, ...otherProps }) => {
 
 /* Top level Accord component */
 
-const Accord = ({ Component, children, ...otherProps }) => {
+const Accord = ({ children, ...otherProps }) => {
   const [openIndices, setOpenIndices] = React.useState([]);
 
   const updateAccord = ndx => {

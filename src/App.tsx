@@ -8,6 +8,7 @@ import Scrolley from './pages/scrolley/Scrolley';
 import HistoryExample from './pages/history/HistoryExample';
 import User from './pages/user-page/User';
 import AccordPage from './pages/accordion/Accordion';
+import Toggle from './pages/toggle/Toggle';
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
         {/* Flexible Compound Components */}
         <Route path="/accordion"
           component={AccordPage} />
+
+        {/* State Reducer Pattern */}
+        <Route path='/toggle' component={Toggle}></Route>
       </Switch>
     </BrowserRouter>
   );
